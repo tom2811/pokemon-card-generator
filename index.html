@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="card">
+            <p class="hp">
+                <span>HP</span>
+                ∞
+            </p>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg" />
+            <h2 id="poke-name" class="poke-name">Search Pokemon</h2>
+            <div class="types">
+                <span>Unknown</span>
+                <span>Unknown</span>
+            </div>
+            <div class="stats">
+                <div>
+                    <h3>∞</h3>
+                    <p>Attack</p>
+                </div>
+                <div>
+                    <h3>∞</h3>
+                    <p>Defense</p>
+                </div>
+                <div>
+                    <h3>∞</h3>
+                    <p>Speed</p>
+                </div>
+            </div>
+        </div>
+        <input id="searchPkm" type="text" placeholder="Search Pokemon">
+        <div class="wrapper">
+            <button id="btn">Search</button>
+            <button id="randomBtn">Random</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

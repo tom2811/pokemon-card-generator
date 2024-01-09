@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    overflow: hidden;
+}
+
+.container {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+#card {
+    position: relative;
+    background: linear-gradient(#95afc0 20%, #ffffff 60%);
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#card img {
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.hp {
+    width: 80px;
+    background-color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+
+.poke-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.hp span,
+.types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+
+.types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stats p {
+    color: #404060;
+}
+
+#btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #101010;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 25px;
+    background-color: transparent;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.25),
+    -20px -20px 60px rgba(255, 255, 255, 0.5);
+    transition: 0.3s all;
+    outline: none;
+}
+
+#btn:hover {
+    color: #cacfda;
+    background-color: #101010;
+}
+
+#btn:active {
+    color: white;
+    transform: scale(1.1);
+}
+
+#searchPkm {
+    margin-top: 30px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+#randomBtn {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #101010;
+    color: #cacfda;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.25),
+    -20px -20px 60px rgba(255, 255, 255, 0.5);
+    outline: none;
+    transition: 0.3s all;
+}
+
+#randomBtn:hover {
+    color: #101010;
+    background-color: #cacfda;
+}
+
+#randomBtn:active {
+    color: white;
+    transform: scale(1.1);
+}
+
+.wrapper {
+    display: flex;
+    gap: 10px;
+}
